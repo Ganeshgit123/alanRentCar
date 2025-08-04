@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@font-face {
+  font-family: 'DroidKufi-Regular';
+  src: url(../fonts/DroidKufi-Regular.ttf);
+}
+
+.page-header, .page-header-space {
+  height: 152px;
+}
+
+.page-footer, .page-footer-space {
+  height: 170px;
+
+}
+
+.page-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid black; /* for demo */
+  background: yellow; /* for demo */
+}
+
+.page-header {
+  position: fixed;
+  top: 0mm;
+  width: 100%;
+  border-bottom: 1px solid black; /* for demo */
+  background: yellow; /* for demo */
+}
+
+.page {
+  page-break-after: always;
+}
+
+
+@media print {
+   thead {display: table-header-group;} 
+   tfoot {display: table-footer-group;}
+   
+   button {display: none;}
+   
+   body {
+      margin-left: 2.5cm;
+    }
+
+}
+
+h2{
+	font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+}
+p{
+	 font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0.9px;
+	text-align: left;
+}
+h2.arabic{
+	 font-family: 'DroidKufi-Regular';
+	 font-size: 24px;
+	 font-weight: 700;
+	 line-height: 1;
+    text-align: right;
+    direction: rtl;
+}
+p.arabic{
+	font-family: 'DroidKufi-Regular';
+	 font-size: 16px;
+	 font-weight: 500;
+	 line-height: 1.5;
+    letter-spacing: 0.9px;
+    text-align: right;
+    direction: rtl;
+}
+li{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0.9px;
+	padding-bottom: 5px;
+}
+
+li.arabic{
+	font-family: 'DroidKufi-Regular';
+	 font-size: 16px;
+	 font-weight: 500;
+	 line-height: 1.5;
+    letter-spacing: 0.9px;
+    text-align: right;
+    direction: rtl;
+    margin-right: 30px;
+}
+
+table>tbody>tr>td{
+    font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0.9px;
+  text-align: left;
+}
+table>tbody>tr>td.arabic{
+   font-family: 'DroidKufi-Regular';
+	 font-size: 16px;
+	 font-weight: 500;
+	 line-height: 1.5;
+    letter-spacing: 0.9px;
+    text-align: right;
+    direction: rtl;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+	border:none ! important;
+}
+
+.border{
+  border: 3px solid #000 ! important;
+}
+.border .right_border{
+  border-right: 3px solid #000 ! important;
+}
+.arab_table{
+  font-family: 'DroidKufi-Regular';
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 1.5;
+    letter-spacing: 0.9px;
+    text-align: right;
+    direction: rtl;
+}
+.right_border ol{
+  margin-bottom: 0 ! important;
+}
+.arab_table ol{
+  margin-bottom: 0 ! important;
+}
+.arab_table li{
+  font-family: 'DroidKufi-Regular';
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 1.5;
+    letter-spacing: 0.9px;
+    text-align: right;
+    direction: rtl;
+    margin-right: 0;
+}
+tr.border td{
+  padding: 5px 0;
+}
+.right_border li{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.9px;
+  text-align: left;
+}

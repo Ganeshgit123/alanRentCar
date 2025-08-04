@@ -1,0 +1,204 @@
+@font-face {
+  font-family: 'DroidKufi-Regular';
+  src: url(../fonts/DroidKufi-Regular.ttf);
+}
+
+@page {
+  bleed: 1cm;
+  size: A4 portrait;
+      size:  auto ! important;   /* auto is the initial value */
+      margin-left: 0mm ! important;  /* this affects the margin in the printer settings */
+      margin-bottom: 0mm ! important;
+      margin-top: 0mm ! important;
+  html
+  {
+      /*background-color: #FFFFFF;*/
+      margin: 0px ! important;  /* this affects the margin on the html before sending to printer */
+  }
+}
+
+@media print {
+  .page {
+    margin: 0 ! important;
+    border: initial ! important;
+    border-radius: initial ! important;
+    width: initial ! important;
+    min-height: initial ! important;
+    box-shadow: initial ! important;
+    background: initial ! important;
+    page-break-after: always ! important;
+  }
+  .table thead.thead th{
+   background: #EA0000 ! important;
+   color: #fff ! important;
+   border-top: none ! important;
+
+  }
+  .sp{
+  padding-right: 1rem ! important;
+  }
+  h5{
+  font-size: 14px ! important;
+}
+
+h2{
+  font-size: 20px ! important;
+}
+
+}
+
+.arabic_font{
+  font-family: 'DroidKufi-Regular' ! important;
+  font-size: 14px ! important;
+}
+
+.arabic1_font{
+  font-family: 'DroidKufi-Regular' ! important;
+  font-size: 16px ! important;
+}
+
+body {
+   /*background: #eee;*/
+  font-family: 'Open Sans' ! important;
+   -webkit-print-color-adjust: exact !important;
+}
+
+h2{
+  font-size: 20px ! important;
+  line-height: 1.6 ! important;
+  letter-spacing: 0.9px ! important;
+  font-weight: 600 ! important;
+}
+
+h6{
+   font-size: 14px ! important;
+  line-height: 1.6 ! important;
+  letter-spacing: 0.9px ! important;
+  font-weight: 600 ! important;
+}
+
+h5{
+  font-size: 16px ! important;
+  line-height: 1.6 ! important;
+  letter-spacing: 0.9px ! important;
+  font-weight: 600 ! important;
+}
+.image{
+  max-width: 300px ! important;
+}
+div.container {
+   border-radius: 15px ! important;
+   background: white ! important;
+   /*box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2) ! important;*/
+}
+
+div.invoice-letter{
+   width: auto ! important;
+   position: relative ! important;
+  /* min-height: 150px;*/
+   background-color: #fff ! important;
+   /*margin-right: -48px;
+   margin-left: -48px;*/
+   /*box-shadow: 0 4px 3px rgba(0,0,0,0.4);*/
+}
+
+div.letter-title{
+   margin-top: 5px ! important;
+   /*height: 130px;*/
+   /*border-right: 2px solid #eee;*/
+}
+div.letter-title1{
+   margin-top: 5px ! important;
+  /* height: 130px;*/
+   /*border-right: 2px solid #eee;*/
+   text-align: right ! important;
+}
+
+div.letter-title1 .inn{
+  border-bottom: 2px solid #000 ! important;
+  margin-top: 5px ! important;
+}
+
+div.letter-title1 .inn2{
+  border-bottom: 2px solid #000 ! important;
+  margin-top: 0 !important;
+  background-color: #E0E0E0 ! important;
+}
+
+div.letter-title1 .inn2 .lis{
+  background-color: #fff ! important;
+  text-align: center ! important;
+  margin-bottom: 0 ! important;
+}
+/*
+div.letter-title1 .inn h5 span{
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 30px;
+}*/
+
+div.bank{
+  border: 2px solid #000 ! important;
+  padding-left: 5px ! important;
+  padding-right: 0 ! important;
+}
+
+div.letter-content{
+   margin-top: 10px ! important;
+}
+
+.table thead.thead th{
+   background: #EA0000 ! important;
+   border-top: none ! important;
+   color: #fff ! important;
+    font-size: 16px ! important;
+}
+.table>tbody>tr>td{
+    font-size: 16px ! important;
+}
+
+.table thead th{
+  border-bottom: none ! important;
+}
+
+
+/*table.invoice thead tr:first-child th:first-child{
+    border-top-left-radius: 25px;
+}
+
+table.invoice thead tr:first-child th:last-child{
+   border-top-right-radius: 25px;
+}*/
+
+/*tr.last-row{
+   background-color: rgba(4, 97, 123, 0.2);
+
+}
+
+tr.last-row th{
+   border-bottom-left-radius: 25px;
+   width: 30px;
+}
+
+tr.last-row td{
+   border-bottom-right-radius: 25px;
+}
+
+div.row div.to{
+   height: 260px;
+   padding-right: 25px;
+   border-right: 2px solid rgba(4, 97, 123, 0.2);
+}*/
+.table{
+  margin-bottom: 5px ! important;
+}
+.table th,tr{
+  text-align: center;
+}
+.sp{
+  padding-right: 1rem ! important;
+  }
+  .table th{
+    padding: 5px 0 5px 0 ! important;
+  }
+
